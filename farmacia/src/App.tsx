@@ -5,9 +5,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ListaCategorias from './components/Categorias/ListarCategorias';
 import FormularioCategoria from './components/Categorias/FormCategoria';
 import DeletarCategoria from './components/Categorias/DeletarCategoria';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return ( 
+    <>
+    <ToastContainer />
       <BrowserRouter>
         <Header />
         <div className='min-h-[80vh]'>
@@ -22,6 +26,7 @@ function App() {
         </div>
         <Footer />
       </BrowserRouter>
+      </>
   );
 }
 
