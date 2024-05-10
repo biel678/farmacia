@@ -1,4 +1,4 @@
-import CardTemas from '../Categorias/CardCategoria';
+import CardTemas from './CardCategoria';
 import { useEffect, useState } from 'react';
 import { Dna } from 'react-loader-spinner';
 import Categoria from '../../model/Categoria';

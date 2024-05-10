@@ -2,8 +2,8 @@ import Home from './pages/Home';
 import Header from './components/NavBar/NavBar';
 import Footer from './components/Footer/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ListaCategorias from './components/Categorias/ListaCategoria';
-import FormularioCategoria from './components/Categorias/FormularioCategoria';
+import ListaCategorias from './components/Categorias/ListarCategorias';
+import FormularioCategoria from './components/Categorias/FormCategoria';
 import DeletarCategoria from './components/Categorias/DeletarCategoria';
 
 function App() {
